@@ -37,7 +37,7 @@ configfile $prefix/grub.cfg
 
 It turns out that Fedora's documentation on reinstalling GRUB is incomplete. It doesn't explain what to do when `/boot/efi/EFI/fedora/grub.cfg` is broken.
 
-As for `grub-customizer`, the problem is that it modifies `/boot/efi/EFI/fedora/grub.cfg` by default, breaking redirections and resulting GRUB unable to find fonts. A bug report is planned.
+As for `grub-customizer`, the problem is that it modifies `/boot/efi/EFI/fedora/grub.cfg` by default, breaking redirections and resulting GRUB unable to find fonts. A bug report is ~~planned~~ [submitted](https://bugzilla.redhat.com/show_bug.cgi?id=2119508).
 
 ## Appendix
 
