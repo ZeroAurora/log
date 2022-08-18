@@ -12,7 +12,7 @@ The fix is, however, very easy. Reinstall GRUB. (Wait, haven't I reinstalled it 
 
 Well, before reinstalling, two files are also needed to be removed:
 
-```sh
+```
 # rm /boot/efi/EFI/fedora/grub.cfg
 # rm /boot/grub2/grub.cfg
 ```
