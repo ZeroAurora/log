@@ -28,7 +28,7 @@ Done.
 Why this happened? Because I accidentally deleted `/boot/efi/EFI/fedora/grub.cfg`, **breaking the redirection to /boot/grub2/grub.cfg**.
 
 ```
-# sudo cat /boot/efi/EFI/fedora/grub.cfg
+# cat /boot/efi/EFI/fedora/grub.cfg
 search --no-floppy --fs-uuid --set=dev [PARTITION_UUID]
 set prefix=($dev)/grub2
 export $prefix
