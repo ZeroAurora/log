@@ -1,4 +1,4 @@
-# Don't use `systemd --user` with sudo...
+# Don't use `systemctl --user` with sudo...
 
 because it simply won't work.
 
@@ -7,6 +7,7 @@ because it simply won't work.
 ```sh
 # install systemd-container (in Debian) or similar
 sudo machinectl shell --uid [WHOEVER]
+# do whatever thing you want to do with `systemctl --user`
 ```
 
 ## refs
