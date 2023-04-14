@@ -1,6 +1,15 @@
-# Don't use `systemd --user` with sudo
+# Don't use `systemd --user` with sudo...
 
 because it simply won't work.
+
+## Instead, use...
+
+```sh
+# install systemd-container (in Debian) or similar
+sudo machinectl shell --uid [WHOEVER]
+```
+
+## refs
 
 https://unix.stackexchange.com/q/346841
 
