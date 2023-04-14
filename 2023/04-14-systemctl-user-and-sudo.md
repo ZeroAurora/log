@@ -1,6 +1,16 @@
-# Don't use `systemctl --user` with sudo...
+# Don't use `systemctl --user` with `sudo -u [WHOEVER]`...
 
-because it simply won't work.
+because it simply won't work：
+
+```sh
+sudo -u somebody -i
+## or
+su somebody
+## and do...
+systemctl --user {command}
+## you'll get...
+# Failed to connect to bus: No medium found
+```
 
 ## Instead, use...
 
