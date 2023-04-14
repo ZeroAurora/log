@@ -11,6 +11,6 @@ sudo machinectl shell --uid [WHOEVER]
 
 ## refs
 
-https://unix.stackexchange.com/q/346841
-
-https://unix.stackexchange.com/q/423632
+- https://unix.stackexchange.com/q/346841
+- https://unix.stackexchange.com/q/423632
+- https://github.com/systemd/systemd/issues/7451#issuecomment-346787237
