@@ -1,4 +1,4 @@
-# Using a OpenVZ VPS and experience slowed down SSH first response?
+# Using a OpenVZ VPS and experiencing slowed down SSH first response?
 
 ## TLDR
 
